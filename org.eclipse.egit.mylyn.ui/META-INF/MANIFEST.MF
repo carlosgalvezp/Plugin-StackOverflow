@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.egit.mylyn.ui;singleton:=true
+Bundle-Activator: org.eclipse.egit.internal.mylyn.ui.EGitMylynUI
+Require-Bundle: org.eclipse.team.core,org.eclipse.jface,org.eclipse.co
+ re.resources,org.eclipse.core.runtime,org.eclipse.ui.navigator.resour
+ ces,org.eclipse.ui.workbench,org.eclipse.mylyn.monitor.core;bundle-ve
+ rsion="[3.0.0,4.0.0)",org.eclipse.mylyn.tasks.core;bundle-version="[3
+ .0.0,4.0.0)",org.eclipse.mylyn.tasks.ui;bundle-version="[3.0.0,4.0.0)
+ ",org.eclipse.mylyn.team.ui;bundle-version="[3.0.0,4.0.0)",org.eclips
+ e.mylyn.resources.ui;bundle-version="[3.0.0,4.0.0)",org.eclipse.mylyn
+ .context.core;bundle-version="[3.0.0,4.0.0)",org.eclipse.ui.workbench
+ .texteditor,org.eclipse.jface.text,org.eclipse.ui.forms
+Bundle-Version: 1.1.0.201109151100-r
+Export-Package: org.eclipse.egit.internal.mylyn.ui;version="1.1.0";x-f
+ riends:="org.eclipse.egit.ui.test",org.eclipse.egit.internal.mylyn.ui
+ .commit;version="1.1.0";x-internal:=true
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Name: %Bundle-Name
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Import-Package: org.eclipse.egit.core;version="[1.1.0,1.2.0)",org.ecli
+ pse.egit.ui;version="[1.1.0,1.2.0)",org.eclipse.egit.ui.internal.comm
+ it;version="[1.1.0,1.2.0)",org.eclipse.egit.ui.internal.synchronize.m
+ odel;version="[1.1.0,1.2.0)",org.eclipse.jgit.errors;version="[1.1.0,
+ 1.2.0)",org.eclipse.jgit.lib;version="[1.1.0,1.2.0)",org.eclipse.jgit
+ .revwalk;version="[1.1.0,1.2.0)",org.eclipse.jgit.transport;version="
+ [1.1.0,1.2.0)",org.eclipse.ui.plugin
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/egit/internal/mylyn/ui/CommitHyperlinkDetector.class
+SHA1-Digest: c7ZQfGvTxY8cj4QpTRy2kO7siqY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/egit/internal/mylyn/ui/commit/TaskReferenceFactory.c
+ lass
+SHA1-Digest: pN1SfXwIfio6QDPn5XM0UXBrwQ8=
+
+Name: org/eclipse/egit/internal/mylyn/ui/EGitMylynUI.class
+SHA1-Digest: XSmiDIyFBAFMJ0MZ9tqNqeFv4nQ=
+
+Name: org/eclipse/egit/internal/mylyn/ui/CommitHyperlinkDetector$Commi
+ tHyperlink.class
+SHA1-Digest: mR5NKga68Ya3zNcXHIgN66GdKP4=
+
+Name: about.html
+SHA1-Digest: rXP/myvey1eRr+b4zHNxgEJ+NyA=
+
+Name: plugin.properties
+SHA1-Digest: 89HRtCRaCuAtxifo4pCBeFhsLTc=
+
+Name: META-INF/maven/org.eclipse.egit/org.eclipse.egit.mylyn.ui/pom.xm
+ l
+SHA1-Digest: TlIEMmpdy7rl+Fa0zYjynZdiFhU=
+
+Name: org/eclipse/egit/internal/mylyn/ui/commit/MylynCommitMessageProv
+ ider.class
+SHA1-Digest: I6PVzS66xgfzoPu5vNcMP/0iTeU=
+
+Name: org/eclipse/egit/internal/mylyn/ui/Messages.class
+SHA1-Digest: phHkKNwx49O0vxAQsdDX5M57m20=
+
+Name: org/eclipse/egit/internal/mylyn/ui/messages.properties
+SHA1-Digest: iRDe3p+VIci8wDKK+yQOYtFnfrg=
+
+Name: plugin.xml
+SHA1-Digest: Cth7UauukGlwvWBjLkPN3xALyhg=
+
+Name: META-INF/maven/org.eclipse.egit/org.eclipse.egit.mylyn.ui/pom.pr
+ operties
+SHA1-Digest: JdW62+L2t6cyha0c4gki77EI9lc=
+
